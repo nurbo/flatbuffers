@@ -18,7 +18,8 @@
   "scripts": {
     "test": "npm run compile && cd tests && ./TypeScriptTest.sh",
     "compile": "tsc && tsc -p tsconfig.mjs.json",
-    "prepublishOnly": "npm run compile"
+    "prepublishOnly": "npm run compile",
+    "prepare": "npm run compile"
   },
   "repository": {
     "type": "git",
