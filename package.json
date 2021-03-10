@@ -3,11 +3,11 @@
   "version": "1.12.0",
   "description": "Memory Efficient Serialization Library",
   "files": [
-    "js/*.js",
-    "js/*.d.ts",
-    "mjs/*.js",
-    "mjs/*.d.ts",
-    "ts/*.ts"
+    "js/**.js",
+    "js/**.d.ts",
+    "mjs/**.js",
+    "mjs/**.d.ts",
+    "ts/**.ts"
   ],
   "main": "js/flatbuffers.js",
   "module": "mjs/flatbuffers.js",
